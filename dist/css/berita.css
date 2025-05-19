@@ -289,12 +289,12 @@ section {
 
 .swiper-slide--one {
   background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
-    url(/assets/images/Background-Rempeyek.webp) no-repeat 50% 50% / cover;
+    url(/assets/images/halal.jpg) no-repeat 50% 50% / cover;
 }
 
 .swiper-slide--two {
   background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
-    url(/assets/images/Background-Rempeyek2.jpg) no-repeat 50% 50% / cover;
+    url(/assets/images/bpom.jpg) no-repeat 50% 50% / cover;
 }
 
 .swiper-slide--three {
