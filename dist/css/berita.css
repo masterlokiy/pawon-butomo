@@ -299,17 +299,17 @@ section {
 
 .swiper-slide--three {
   background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
-    url(/assets/images/Background-Rempeyek3.jpg) no-repeat 50% 50% / cover;
+    url(/assets/images/full_peyek/kacang_tanah.JPG) no-repeat 50% 50% / cover;
 }
 
 .swiper-slide--four {
   background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
-    url(/assets/images/Background-Rempeyek4.jpg) no-repeat 50% 50% / cover;
+    url(/assets/images/full_peyek/kacang_hijau.JPG) no-repeat 50% 50% / cover;
 }
 
 .swiper-slide--five {
   background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
-    url(/assets/images/Background-Rempeyek6.jpg) no-repeat 50% 50% / cover;
+    url(/assets/images/full_peyek/kacang_cabai.JPG) no-repeat 50% 50% / cover;
 }
 
 .swiper-3d .swiper-slide-shadow-left,
@@ -331,16 +331,18 @@ section {
 /* Responsive for Small Screens (Mobile) */
 @media (max-width: 768px) {
   .swiper-slide {
+    margin-top: 100px;
     width: 90%;
-    height: 250px;
+    height: 450px;
   }
 }
 
 /* Responsive for Extra Small Screens */
 @media (max-width: 480px) {
   .swiper-slide {
+    margin-top: 100px;
     width: 100%;
-    height: 200px;
+    height: 400px;
   }
 }
 
