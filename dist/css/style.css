@@ -195,11 +195,6 @@ body {
   background-color: white;
 }
 
-.navbar.scrolled .navbar-box .menu {
-  background-color: rgba(134, 88, 1, 0.897) !important;
-  color: #f70000 !important;
-}
-
 
 .navbar.scrolled {
   padding: 15px 0;
