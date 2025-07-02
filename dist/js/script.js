@@ -64,7 +64,7 @@ var swiper = new Swiper(".swiper", {
                   `Nomor telepon: ${telepon}.`;
 
     // Ganti dengan nomor WhatsApp tujuan (gunakan format internasional tanpa +)
-    const nomorWa = "62895397149220"; // Ganti dengan nomor tujuan
+    const nomorWa = "6281370265152"; // Ganti dengan nomor tujuan
     
     // Buat URL WhatsApp
     const waUrl = `https://wa.me/${nomorWa}?text=${encodeURIComponent(pesan)}`;
