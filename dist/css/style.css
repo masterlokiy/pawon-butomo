@@ -2,7 +2,7 @@ body {
   min-width: 415px;
   min-height: 100%;
   margin: 0;
-  background-color: rgba(134, 88, 1, 1);
+  background-color: rgb(255, 255, 255);
   padding-top: 100px;
 }
 
@@ -65,12 +65,12 @@ body {
 }
 
 .logo a h1 {
-  color: white;
+  color: rgba(134, 88, 1, 0.897);
   transition: color 0.3s, text-shadow 0.3s;
 }
 
 .logo a h1:hover {
-  color: rgba(255, 255, 255, 1);
+  color: rgba(0, 0, 0, 0.897);
   text-shadow: 0 0 8px rgba(255, 255, 255, 0.8), 
                0 0 15px rgba(255, 255, 255, 0.6), 
                0 0 20px rgba(255, 255, 255, 0.4);
@@ -85,7 +85,7 @@ body {
 
 .navbar-box .menu li a {
   text-decoration: none;
-  color: rgba(255, 255, 255, 0.9);
+  color: rgba(134, 88, 1, 0.897);
   font-weight: 500;
   font-size: 1.05rem;
   letter-spacing: 0.5px;
@@ -100,8 +100,8 @@ body {
 }
 
 .navbar-box .menu li a:hover {
-  color: #fff;
-  background-color: rgba(255, 255, 255, 0.1);
+  color: #000000;
+  background-color: rgba(204, 204, 204, 0.1);
 }
 
 .navbar-box .menu li a::after {
@@ -111,7 +111,7 @@ body {
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #fff;
+  background-color: #000000;
   transition: width 0.3s ease;
 }
 
@@ -194,6 +194,31 @@ body {
   box-shadow: -5px 0 15px rgba(0, 0, 0, 0.1);
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
 }
+
+.navbar.scrolled .logo a h1 {
+  color: white;
+}
+
+.navbar.scrolled .logo a h1:hover {
+  color: white;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.9),
+               0 0 20px rgba(255, 255, 255, 0.7),
+               0 0 30px rgba(255, 255, 255, 0.5);
+}
+
+.navbar.scrolled .menu li a {
+  color: rgba(255, 255, 255, 0.897);
+}
+
+.navbar.scrolled .menu li a:hover {
+  color: #ffffff;
+  background-color: rgba(204, 204, 204, 0.1);
+  width: 100%;
+}
+
+.navbar.scrolled .menu li a::after {
+  background-color: white;
+}
 /* Navbar */
 
 /* Hero */
@@ -273,6 +298,7 @@ body {
   border-radius: 1rem;
   padding: 50px 25px 50px;
   margin-top: 30px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
   /* box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px; */
 }
 
@@ -461,17 +487,19 @@ body {
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
   border-radius: 1rem;
   padding: 4rem 2rem 0;
-  margin-top: 100px;
   margin: 100px 20px 0;
+  position: relative; 
 }
 
 .card img {
   position: absolute;
-  padding-right: 29px;
-  width: 350px;
+  top: 0; 
+  left: 50%; 
+  transform: translateX(-50%) translateY(-50%); 
+  width: 190px;
   filter: drop-shadow(5px 10px 15px rgba(8, 9, 13, 0.2));
-  transform: translate(-1.7rem, -8.5rem);
 }
+
 
 .title {
   font-size: 1.5rem;
@@ -539,7 +567,7 @@ body {
   margin-top: 30px;
   text-align: center;
   font-size: 30px;
-  color: white;
+  color: rgb(0, 0, 0);
 }
 
 /* h1 */
@@ -558,6 +586,7 @@ body {
   align-items: flex-start;
   flex-wrap: wrap; /* responsif di layar kecil */
   gap: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 
 .tentang-kami-container .box {
@@ -609,8 +638,8 @@ body {
 
 /* Footer */
 .site-footer {
-  background-color: #ffffff;
-  color: #000000;
+  background-color: rgba(134, 88, 1, 0.897);
+  color: #ffffff;
   padding: 40px 0 20px;
   margin-top: 30px;
 }
@@ -632,7 +661,7 @@ body {
 }
 
 .footer-section h3 {
-  color: #f39c12;
+  color: #ffffff;
   margin-bottom: 20px;
   font-size: 18px;
 }
@@ -667,7 +696,7 @@ body {
 
 .footer-section p i {
   margin-right: 10px;
-  color: #f39c12;
+  color: #ffffff;
 }
 
 .certification-logos {
@@ -692,7 +721,7 @@ body {
 }
 
 .footer-links a {
-  color: #000000;
+  color: #ffffff;
   text-decoration: none;
   transition: color 0.3s;
 }
@@ -705,12 +734,12 @@ body {
   width: 100%;
   text-align: center;
   padding-top: 20px;
-  border-top: 1px solid #34495e;
+  border-top: 1px solid #ffffff;
   margin-top: 20px;
 }
 
 .copyright {
-  color: #000000;
+  color: #ffffff;
   font-size: 14px;
 }
 
